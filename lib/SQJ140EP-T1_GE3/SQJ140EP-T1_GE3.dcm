@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SQJ140EP-T1_GE3
+D MOSFET N-CHANNEL 40-V (D-S) 175C MOSFET
+K
+F https://www.vishay.com/docs/77368/sqj140ep.pdf
+$ENDCMP
+#
+#End Doc Library

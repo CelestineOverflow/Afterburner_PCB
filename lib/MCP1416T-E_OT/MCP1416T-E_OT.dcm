@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MCP1416T-E_OT
+D MOSFET Driver 1.5A High-Speed 18V SOT23
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA14/636094.pdf
+$ENDCMP
+#
+#End Doc Library

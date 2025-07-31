@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX31865ATP+T
+D IC RTD TO DIGITAL CONVERT 20TQFN
+K
+F https://www.analog.com/MAX31865/datasheet
+$ENDCMP
+#
+#End Doc Library

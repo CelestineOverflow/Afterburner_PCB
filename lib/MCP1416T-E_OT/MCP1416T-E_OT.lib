@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MCP1416T-E_OT
+#/158860/1717296/2.50/5/3/Integrated Circuit
+DEF MCP1416T-E_OT IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "MCP1416T-E_OT" 850 200 50 H V L CNN
+F2 "SOT95P270X145-5N" 850 100 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA14/636094.pdf" 850 0 50 H I L CNN
+F4 "MOSFET Driver 1.5A High-Speed 18V SOT23" 850 -100 50 H I L CNN "Description"
+F5 "1.45" 850 -200 50 H I L CNN "Height"
+F6 "579-MCP1416T-E/OT" 850 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP1416T-E-OT?qs=hH%252BOa0VZEiBT%252BgAjATFU6A%3D%3D" 850 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Microchip" 850 -500 50 H I L CNN "Manufacturer_Name"
+F9 "MCP1416T-E/OT" 850 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X NC 1 0 0 200 R 50 50 0 0 N
+X VDD 2 0 -100 200 R 50 50 0 0 P
+X IN 3 0 -200 200 R 50 50 0 0 P
+X GND 4 1000 0 200 L 50 50 0 0 P
+X OUT 5 1000 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

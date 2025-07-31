@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NTMFS5C612NLT1G
+D Low RDS(on); Low Input Capacitance; NTMFS5C612NLWF  Wettable Flank Option for Enhanced Optical Inspection; RoHS Compliant
+K
+F https://www.onsemi.com/pub/Collateral/NTMFS5C612NL-D.PDF
+$ENDCMP
+#
+#End Doc Library
