@@ -1,4 +1,4 @@
-25595825291543738
+25618631252115728
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67864,6 +67864,97 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+1017201300011LF
+10172013-00011LF
+Connector
+0
+16
+16
+Library
+2194MST
+219-4MST-1
+Switch
+0
+8
+8
+Library
+1757242
+1757242
+Connector
+0
+2
+2
+Library
+B4BXHALFSN
+B4B-XH-A(LF)(SN)-3
+Connector
+0
+4
+4
+Library
+ESD122DMYR
+DMY0003A
+Diode ESD (Uni-directional)
+0
+3
+3
+Library
+NTMFS5C612NLT1G
+DFN5_2021
+Connector
+0
+9
+9
+Library
+QFN40P300X300X80-21N-D
+RUK (S-PWQFN-N20)
+Integrated Circuit
+0
+21
+21
+Library
+QFN50P400X400X80-25N-D
+W-QFN4040-24
+Integrated Circuit
+0
+25
+25
+Library
+QFN65P500X500X80-21N
+T2055+5
+Integrated Circuit
+0
+21
+21
+Library
+SOIC127P600X175-16N
+16L SOP – 150 mil
+Integrated Circuit
+0
+16
+16
+Library
+SOP50P490X110-10N
+DGS (S-PDSO-G10)
+Integrated Circuit
+0
+10
+10
+Library
+SOT95P270X145-5N
+SOT-23
+Integrated Circuit
+0
+5
+5
+Library
+SQJ140EPT1_GE3
+PowerPAK® SO-8L Case Outline 3-1
+MOSFET (N-Channel)
+0
+11
+11
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
