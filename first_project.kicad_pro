@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 2.0,
+          "width": 1.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -656,7 +656,7 @@
       "Heater_Mosfet_1"
     ],
     [
-      "a043f178-0ec2-40c4-99f6-08fbdac05a8f",
+      "2193e15f-f831-4392-b250-ff13e973393d",
       "Temp Sensor 2"
     ],
     [
@@ -668,32 +668,32 @@
       "Temp Sensor 1"
     ],
     [
-      "a2833cd8-af89-48a8-acee-690f72e7d5d4",
+      "88a822de-f11e-4d6d-ade7-7e59b150d23c",
       "Temp Sensor 3"
     ],
     [
-      "96259ff3-b0e5-4f6c-a0b0-3664a6a8c529",
+      "8d5672eb-64c4-497f-bf75-6647b35dddf6",
       "Temp Sensor 4"
     ],
     [
-      "a8bc21ac-843d-4a58-b07f-bafd327ef933",
-      "USBPD"
+      "f4b37abd-93fa-47ac-8113-341753863783",
+      "Heater_Mosfet_2"
     ],
     [
-      "5e6cd2b8-718c-4f2d-b922-7cc757b09a98",
-      "Heater_Mosfet_2"
+      "a445d34f-af0c-4abc-8750-cad3f5a4f178",
+      "Heater_Mosfet_3"
     ],
     [
       "c3f59fbc-6924-4e8b-96b8-62bdd14c37a6",
       "USB\u001f_CONTROL"
     ],
     [
-      "f66fa6c1-3f28-4cf2-ae30-1bb5790dcacc",
-      "Heater_Mosfet_3"
+      "e44134ae-6fd5-457c-b7e1-8d10f2737c1e",
+      "Heater_Mosfet_4"
     ],
     [
-      "34261f10-8963-4dda-baa9-cad06ed8db27",
-      "Heater_Mosfet_4"
+      "13d54b99-12d0-44bc-b9a1-c593b1d179cd",
+      "PD"
     ]
   ],
   "text_variables": {}

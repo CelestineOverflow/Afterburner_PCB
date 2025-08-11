@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model STL36DN6F7
+#/1246031/1717296/2.50/10/2/MOSFET (N-Channel)
+DEF STL36DN6F7 Q 0 30 Y Y 1 F N
+F0 "Q" 950 300 50 H V L CNN
+F1 "STL36DN6F7" 950 200 50 H V L CNN
+F2 "STL36DN6F7" 950 100 50 H I L CNN
+F3 "https://www.digikey.com/en/products/detail/stmicroelectronics/STL36DN6F7/7360914?msockid=3bdc366bbe0663d83c1223c0bf3662a6" 950 0 50 H I L CNN
+F4 "Dual N-channel 60 V, 23 m typ., 33 A STripFET F7 Power MOSFET in a PowerFLAT 5x6 double island package" 950 -100 50 H I L CNN "Description"
+F5 "" 950 -200 50 H I L CNN "Height"
+F6 "511-STL36DN6F7" 950 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STL36DN6F7/?qs=u4fy%2FsgLU9MwLM2KeqBprA%3D%3D" 950 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "STMicroelectronics" 950 -500 50 H I L CNN "Manufacturer_Name"
+F9 "STL36DN6F7" 950 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X S2 1 0 0 200 R 50 50 0 0 P
+X G2 2 0 -100 200 R 50 50 0 0 P
+X S1 3 0 -200 200 R 50 50 0 0 P
+X G1 4 0 -300 200 R 50 50 0 0 P
+X D1_1 5 0 -400 200 R 50 50 0 0 P
+X D1_2 6 1100 0 200 L 50 50 0 0 P
+X D2_1 7 1100 -100 200 L 50 50 0 0 P
+X D2_2 8 1100 -200 200 L 50 50 0 0 P
+X D2_3 9 1100 -300 200 L 50 50 0 0 P
+X D1_3 10 1100 -400 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 900 100 900 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPD4S480RUKR
+D USB Interface IC USB Type-C 48V EPR port protector with short-to-VBUS overvoltage and IEC ESD protection
+K
+F https://www.ti.com/lit/ds/symlink/tpd4s480.pdf?ts=1743703493307
+$ENDCMP
+#
+#End Doc Library
