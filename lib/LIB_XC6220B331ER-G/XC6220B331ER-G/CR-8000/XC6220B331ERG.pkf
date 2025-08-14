@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "XC6220B331ERG"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "XC6220B331ERG")
+        (spec "default")
+    )
+)

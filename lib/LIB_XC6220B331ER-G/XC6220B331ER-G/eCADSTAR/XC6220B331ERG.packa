@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XC6220B331ER-G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-08-05-09:38:16)
+    (mountForm default
+        (footprintRef "XC6220B331ERG")
+        (spec "System")
+    )
+)

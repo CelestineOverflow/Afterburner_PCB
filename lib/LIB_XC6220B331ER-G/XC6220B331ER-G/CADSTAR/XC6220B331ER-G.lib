@@ -1,0 +1,16 @@
+.XC6220B331ER-G :1 ;Linear Voltage Regulator IC Positive Fixed 1 Output 1A 6-USPC (1.8x2)
+XC6220B331ERG
+*STM IC
+*NGS
+*PLB 1="VOUT_1" 2="VOUT_2" 3="CE" 4="VSS" 5="VIN_1" 6="VIN_2" 7="EP"
+*MXP 7
+*DFN XC6220B331ER-G
+~!Mouser Part Number (865-XC6220B331ER-G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6220B331ER-G?qs=AsjdqWjXhJ%252BJj%252BEWI7nHIg%3D%3D)
+~!Manufacturer_Name (Torex)
+~!Manufacturer_Part_Number (XC6220B331ER-G)
+~!Link Datasheet (https://www.digikey.ph/en/products/detail/torex-semiconductor-ltd/XC6220B331ER-G/10166030?msockid=39f1ec84d77b6f4428b7f904d6676eed)
+~!Height (1mm)
+~!3D_Model (XC6220B331ER-G)
+XC6220B331ER-G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

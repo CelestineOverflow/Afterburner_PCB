@@ -212,15 +212,15 @@
 		(uuid "afc44db9-8e2b-4e29-8fc6-cd50598ff207")
 	)
 	(embedded_fonts no)
-	(model "1757242.stp"
+	(model "${KIPRJMOD}/lib/1757242/1757242.step"
 		(offset
-			(xyz 2.499999962 -3.99999994 4.590000084)
+			(xyz 2.5 -5.275 0.59)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 -90)
+			(xyz -90 -0 -90)
 		)
 	)
 )

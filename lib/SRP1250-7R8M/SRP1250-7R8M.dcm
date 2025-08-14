@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP1250-7R8M
+D Bourns SRP1250 Series Shielded Wire-wound SMD Inductor with a Iron Core, 7.8 uH +/-20% 10A Idc
+K
+F https://www.bourns.com/docs/Product-Datasheets/SRP1250.pdf
+$ENDCMP
+#
+#End Doc Library

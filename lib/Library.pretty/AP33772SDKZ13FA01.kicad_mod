@@ -351,4 +351,15 @@
 		(uuid "f65c927b-1af2-4acb-92ef-58e08ea30019")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/AP33772DKZ-13/AP33772DKZ-13.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

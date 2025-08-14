@@ -241,15 +241,16 @@
 		(uuid "6a5e0a3f-8cbc-4faa-be44-659dce6fdd90")
 	)
 	(embedded_fonts no)
-	(model "NTMFS5C612NLT1G.stp"
+	(model "${KIPRJMOD}/lib/NTMFS5C612NLT1G/NTMFS5C612NLT1G.stp"
+		(hide yes)
 		(offset
-			(xyz 0 -0.04999999999 0.04999999999)
+			(xyz 0 0 0.05)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 -0 -0)
 		)
 	)
 )

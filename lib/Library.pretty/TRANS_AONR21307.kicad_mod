@@ -342,4 +342,15 @@
 		(uuid "0299dedc-ca50-4b10-aa6a-be61afdb36a0")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/AON7262E/AON7262E.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
 )

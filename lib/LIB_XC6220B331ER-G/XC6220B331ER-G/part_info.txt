@@ -1,0 +1,9 @@
+Manufacturer=Torex
+PartNumber=XC6220B331ER-G
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=7
+Version=1.3
+Released=2018-07-18 12:01:04
+Downloaded=2025-08-11 16:22:05
+3D=Y

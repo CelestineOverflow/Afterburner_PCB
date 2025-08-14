@@ -1,4 +1,4 @@
-25629158314238148
+25639698107648444
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -67928,6 +67928,20 @@ Diode ESD (Uni-directional)
 3
 3
 Library
+ESP32S3MINI1N8
+ESP32-S3-MINI-1-N8-1_2024
+Integrated Circuit
+0
+73
+73
+Library
+ESP32S3WROOM1N8R2
+ESP32-S3-WROOM-1-N8R2-3
+Integrated Circuit
+0
+49
+49
+Library
 NTMFS5C612NLT1G
 DFN5_2021
 Connector
@@ -67991,12 +68005,40 @@ MOSFET (N-Channel)
 11
 11
 Library
+SRP12507R8M
+SRP1250-7R8M-6
+Inductor
+0
+2
+2
+Library
+STL36DN6F7
+PowerFLAT 5x6 double island_2022
+MOSFET (N-Channel)
+0
+10
+10
+Library
 TRANS_AONR21307
 
 
 0
 5
 5
+Library
+UJ20CHGSMT5P16TR
+UJ20-C-H-G-SMT-5-P16-TR-4
+Connector
+0
+18
+18
+Library
+XC6220B331ERG
+XC6220B331ER-G
+Integrated Circuit
+0
+7
+7
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

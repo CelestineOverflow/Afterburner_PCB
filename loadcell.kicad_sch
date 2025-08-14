@@ -1530,7 +1530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-16N"
+		(property "Footprint" "Library:SOIC127P600X175-16N"
 			(at 148.59 155.88 0)
 			(effects
 				(font
