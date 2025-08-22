@@ -306,7 +306,7 @@
 		(uuid "be639d45-d449-4707-98da-cdf5a00fa327")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/NAU7802SGI/NAU7802SGI.stp"
+	(model "${KIPRJMOD}/lib/3d/NAU7802SGI.stp"
 		(offset
 			(xyz 0 0 0)
 		)

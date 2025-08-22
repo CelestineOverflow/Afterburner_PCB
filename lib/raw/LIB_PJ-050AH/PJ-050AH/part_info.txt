@@ -1,0 +1,9 @@
+Manufacturer=Same Sky
+PartNumber=PJ-050AH
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=5.2
+Released=2018-08-07 10:32:48
+Downloaded=2025-08-18 12:00:40
+3D=Y

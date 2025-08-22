@@ -511,7 +511,8 @@
 		(uuid "dc4f2105-ccc2-485e-8800-0103c901b76b")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/ESP32-S3-WROOM-1-N8/ESP32-S3-WROOM-1-N8.stp"
+	(model "${KIPRJMOD}/lib/3d/ESP32-S3-WROOM-1-N8.stp"
+		(hide yes)
 		(offset
 			(xyz 0 0 0)
 		)

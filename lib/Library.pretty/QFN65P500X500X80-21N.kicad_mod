@@ -302,7 +302,7 @@
 		(uuid "0f5e9b90-59f9-4366-8bf1-370921386273")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/MAX31865ATP+T/MAX31865ATP+T.stp"
+	(model "${KIPRJMOD}/lib/3d/MAX31865ATP+T.stp"
 		(offset
 			(xyz 0 0 0)
 		)

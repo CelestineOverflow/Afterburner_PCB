@@ -1,0 +1,9 @@
+Manufacturer=JST (JAPAN SOLDERLESS TERMINALS)
+PartNumber=B12B-XH-A(LF)(SN)
+PartCategory=Connector
+PackageCategory=Header, Shrouded - Straight PTH Box
+PinCount=12
+Version=3.1
+Released=2018-12-27 13:22:05
+Downloaded=2025-08-14 14:13:41
+3D=Y

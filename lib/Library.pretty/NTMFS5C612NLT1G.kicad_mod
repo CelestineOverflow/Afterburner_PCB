@@ -241,8 +241,7 @@
 		(uuid "6a5e0a3f-8cbc-4faa-be44-659dce6fdd90")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/NTMFS5C612NLT1G/NTMFS5C612NLT1G.stp"
-		(hide yes)
+	(model "${KIPRJMOD}/lib/3d/NTMFS5C612NLT1G.stp"
 		(offset
 			(xyz 0 0 0.05)
 		)

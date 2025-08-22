@@ -312,7 +312,7 @@
 		(uuid "f0dc16d6-a213-4933-98d8-149acef17d43")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/219-4MST/219-4MST.stp"
+	(model "${KIPRJMOD}/lib/3d/219-4MST.stp"
 		(offset
 			(xyz 0 0 0.5)
 		)

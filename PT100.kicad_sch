@@ -5,238 +5,6 @@
 	(uuid "b650ca88-f60c-4320-8ad2-5a94d15e422f")
 	(paper "A4")
 	(lib_symbols
-		(symbol "691412120004B:691412120004B"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at -4.88 1.078 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Value" "691412120004B"
-				(at -4.83 -1.58 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right bottom)
-				)
-			)
-			(property "Footprint" "691412120004B:691412120004B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "691412120004B_0_0"
-				(rectangle
-					(start -3.81 -2.54)
-					(end 6.35 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -2.54 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -1.705) (xy -2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.705) (xy 0 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -1.705) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 1.705) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 5.08 1.27)
-					(radius 0.4445)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 5.08 270)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -361,7 +129,481 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MAX31865ATP+T:MAX31865ATP+T"
+		(symbol "Switches SPST 4:219-4MST"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "219-4MST"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "2194MST"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/219-4MST.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "DIP Switches / SIP Switches"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "4.3"
+				(at 16.51 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "774-2194MST"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/219-4MST?qs=qNzHFtQhdJ8xGV2Z9mul9A%3D%3D"
+				(at 16.51 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "CTS"
+				(at 16.51 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "219-4MST"
+				(at 16.51 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "219-4MST_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -2.54 180)
+					(length 5.08)
+					(name "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -5.08 180)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 -7.62 180)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "afterburner_symbolic:1803293"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at -6.85 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "1803293"
+				(at -6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "Library:PHOENIX_1803293"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PARTREV" "08.06.2015"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(property "MANUFACTURER" "Phoenix Contact"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+					(hide yes)
+				)
+			)
+			(symbol "1803293_0_0"
+				(rectangle
+					(start -6.35 7.62)
+					(end 6.35 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -5.715 4.7625)
+					(end -4.1275 5.3975)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 2.2225)
+					(end -4.1275 2.8575)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 -0.3175)
+					(end -4.1275 0.3175)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -5.715 -2.8575)
+					(end -4.1275 -2.2225)
+					(stroke
+						(width 0.1)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "01"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "02"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "03"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "04"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "afterburner_symbolic:MAX31865ATP+T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -845,266 +1087,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Switches SPST 4:219-4MST"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "S"
-				(at 16.51 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "219-4MST"
-				(at 16.51 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "2194MST"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/219-4MST.pdf"
-				(at 16.51 -194.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "DIP Switches / SIP Switches"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Height" "4.3"
-				(at 16.51 -394.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "774-2194MST"
-				(at 16.51 -494.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/219-4MST?qs=qNzHFtQhdJ8xGV2Z9mul9A%3D%3D"
-				(at 16.51 -594.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Name" "CTS"
-				(at 16.51 -694.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Manufacturer_Part_Number" "219-4MST"
-				(at 16.51 -794.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(symbol "219-4MST_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 15.24 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 0 180)
-					(length 5.08)
-					(name "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -2.54 180)
-					(length 5.08)
-					(name "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -5.08 180)
-					(length 5.08)
-					(name "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 20.32 -7.62 180)
-					(length 5.08)
-					(name "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1644,16 +1626,6 @@
 		)
 		(uuid "6077067d-1b77-4916-81b6-5d4616ba996c")
 	)
-	(label "RTDIN_P"
-		(at 26.67 64.77 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6de55501-d045-44b1-b6a5-c40628fa2660")
-	)
 	(label "ISENSOR"
 		(at 57.15 64.77 180)
 		(effects
@@ -1663,6 +1635,16 @@
 			(justify right bottom)
 		)
 		(uuid "712fbad7-3e6f-4faa-ba1d-b505cbee132c")
+	)
+	(label "FORCE_N"
+		(at 35.56 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a2730d58-3973-4c1e-9588-12c3895befee")
 	)
 	(label "4300R"
 		(at 93.98 66.04 180)
@@ -1675,24 +1657,14 @@
 		(uuid "af98bde5-86b8-4b6b-b05b-0988f7a71222")
 	)
 	(label "RTDIN_N"
-		(at 36.83 67.31 0)
+		(at 35.56 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "b1892bc3-a09d-42f8-9b67-acc7639f7e1a")
-	)
-	(label "FORCE_N"
-		(at 26.67 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b4fd2c20-02cc-4c60-b164-d3e6d508b300")
+		(uuid "bacd5bb1-603c-4025-9aa6-2e718256aa32")
 	)
 	(label "FORCE_P"
 		(at 77.47 72.39 0)
@@ -1724,16 +1696,6 @@
 		)
 		(uuid "ccd2dae6-e51c-4dbe-929c-21e2ae44f6d9")
 	)
-	(label "FORCE_P"
-		(at 36.83 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ce7d53ac-e021-42ef-9179-313c4c9ce682")
-	)
 	(label "4300R"
 		(at 77.47 64.77 0)
 		(effects
@@ -1743,6 +1705,16 @@
 			(justify left bottom)
 		)
 		(uuid "d14ea8a3-c036-4849-bde3-fc762419458e")
+	)
+	(label "FORCE_P"
+		(at 35.56 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "de4eb049-48ad-4f22-a3df-1f55315fb4f8")
 	)
 	(label "FORCE_N"
 		(at 134.62 91.44 270)
@@ -1783,6 +1755,16 @@
 			(justify right bottom)
 		)
 		(uuid "fa408244-cad2-4390-9e8b-2752261e6b61")
+	)
+	(label "RTDIN_P"
+		(at 35.56 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fca60408-4fa4-4127-a1d1-40abaffee0cf")
 	)
 	(hierarchical_label "SCLK"
 		(shape input)
@@ -1901,93 +1883,6 @@
 				)
 				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/8d5672eb-64c4-497f-bf75-6647b35dddf6"
 					(reference "#PWR076")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "691412120004B:691412120004B")
-		(at 31.75 64.77 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "62b897fa-6788-4504-bd7f-4b191d07cce8")
-		(property "Reference" "J4"
-			(at 31.75 76.2 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "691412120004B"
-			(at 31.75 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:691412120004B"
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "445cb5d4-e264-4e82-9b74-81911cf16380")
-		)
-		(pin "3"
-			(uuid "6f0f9519-1b1d-4282-92e8-2990117ce898")
-		)
-		(pin "1"
-			(uuid "8a831d93-9a36-4bf6-8b37-da490faa9cb0")
-		)
-		(pin "4"
-			(uuid "ffb4a70f-4f1e-4b32-80d4-f940efa26408")
-		)
-		(instances
-			(project "first_project"
-				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/1a5aca48-4a5c-47d9-a910-5b90d8564b5f"
-					(reference "J7")
-					(unit 1)
-				)
-				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/2193e15f-f831-4392-b250-ff13e973393d"
-					(reference "J4")
-					(unit 1)
-				)
-				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/88a822de-f11e-4d6d-ade7-7e59b150d23c"
-					(reference "J8")
-					(unit 1)
-				)
-				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/8d5672eb-64c4-497f-bf75-6647b35dddf6"
-					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -2222,6 +2117,195 @@
 				)
 				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/8d5672eb-64c4-497f-bf75-6647b35dddf6"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "afterburner_symbolic:MAX31865ATP+T")
+		(at 116.84 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2871648-5a1e-4381-adce-9edccdce895b")
+		(property "Reference" "IC4"
+			(at 153.67 57.0798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MAX31865ATP+T"
+			(at 153.67 59.6198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "QFN65P500X500X80-21N"
+			(at 146.05 148.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/MAX31865/datasheet"
+			(at 146.05 248.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "IC RTD TO DIGITAL CONVERT 20TQFN"
+			(at 116.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "0.8"
+			(at 146.05 448.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "700-MAX31865ATP+T"
+			(at 146.05 548.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX31865ATP%2bT?qs=mIV%2FTjyUFhl0J5LgcLJnSg%3D%3D"
+			(at 146.05 648.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Analog Devices"
+			(at 146.05 748.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MAX31865ATP+T"
+			(at 146.05 848.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "18"
+			(uuid "9153517f-bd8b-4c59-8ab3-bd5e582a46f6")
+		)
+		(pin "8"
+			(uuid "8f8e9db9-6b28-4d23-8189-41d8810f14a6")
+		)
+		(pin "12"
+			(uuid "47be1410-0768-4fb7-a55f-f22f67234fdd")
+		)
+		(pin "20"
+			(uuid "f6ac41bc-7829-4931-bfeb-e88ba149c110")
+		)
+		(pin "4"
+			(uuid "78952571-feca-4cc2-8657-f50667b1d24d")
+		)
+		(pin "15"
+			(uuid "0f86c3e8-4f3d-42e0-b3ed-7e353dab2ed6")
+		)
+		(pin "2"
+			(uuid "db26c58a-1ce0-45a2-a509-eef2551139e0")
+		)
+		(pin "9"
+			(uuid "bbddd6b5-f95e-4d71-b46a-7d6ee6848fb6")
+		)
+		(pin "17"
+			(uuid "0ebc752a-a4c7-4694-bb53-c76d36f8accc")
+		)
+		(pin "1"
+			(uuid "abe11a71-72eb-425e-b71e-0816204026a7")
+		)
+		(pin "10"
+			(uuid "016f763f-b36d-4afa-a577-d25c37eda451")
+		)
+		(pin "21"
+			(uuid "1f227cf6-96e5-4049-9d2b-daa3fb999682")
+		)
+		(pin "5"
+			(uuid "eb07fb25-d866-456e-9f30-e99885a3c92c")
+		)
+		(pin "3"
+			(uuid "632fa396-2168-4dbc-b923-49cd9fae8354")
+		)
+		(pin "7"
+			(uuid "f822ac7c-1cd3-4b73-93f7-b5124ec18295")
+		)
+		(pin "19"
+			(uuid "4ab5709d-e287-4b1d-8378-59f7d2132731")
+		)
+		(pin "6"
+			(uuid "52a2eaa7-b2c1-44e2-88b8-e85d6ed4cb24")
+		)
+		(pin "16"
+			(uuid "edba3efb-ea59-4671-871b-6da6ab6410f0")
+		)
+		(pin "14"
+			(uuid "3c595243-1bb0-4e97-8018-6c58f6c42072")
+		)
+		(pin "13"
+			(uuid "06d6aaca-5a03-41fa-88be-566799c2edb2")
+		)
+		(pin "11"
+			(uuid "84a53e7d-d21f-4c9e-8965-ce3e8865279e")
+		)
+		(instances
+			(project ""
+				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/1a5aca48-4a5c-47d9-a910-5b90d8564b5f"
+					(reference "IC7")
+					(unit 1)
+				)
+				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/2193e15f-f831-4392-b250-ff13e973393d"
+					(reference "IC4")
+					(unit 1)
+				)
+				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/88a822de-f11e-4d6d-ade7-7e59b150d23c"
+					(reference "IC8")
+					(unit 1)
+				)
+				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/8d5672eb-64c4-497f-bf75-6647b35dddf6"
+					(reference "IC9")
 					(unit 1)
 				)
 			)
@@ -2535,53 +2619,44 @@
 		)
 	)
 	(symbol
-		(lib_id "MAX31865ATP+T:MAX31865ATP+T")
-		(at 116.84 63.5 0)
+		(lib_id "afterburner_symbolic:1803293")
+		(at 25.4 69.85 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e2c3cba0-0151-424b-b489-2c4df409ec2a")
-		(property "Reference" "IC7"
-			(at 153.67 57.0798 0)
+		(uuid "e38d4985-a241-4381-8c9c-de5fba5d2f7d")
+		(property "Reference" "J17"
+			(at 25.4 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "MAX31865ATP+T"
-			(at 153.67 59.6198 0)
+		(property "Value" "1803293"
+			(at 25.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Library:QFN65P500X500X80-21N"
-			(at 146.05 148.26 0)
+		(property "Footprint" "Library:PHOENIX_1803293"
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.analog.com/MAX31865/datasheet"
-			(at 146.05 248.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "IC RTD TO DIGITAL CONVERT 20TQFN"
-			(at 116.84 63.5 0)
+		(property "Datasheet" ""
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2589,135 +2664,73 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.8"
-			(at 146.05 448.26 0)
+		(property "Description" ""
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "700-MAX31865ATP+T"
-			(at 146.05 548.26 0)
+		(property "PARTREV" "08.06.2015"
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Analog-Devices-Maxim-Integrated/MAX31865ATP%2bT?qs=mIV%2FTjyUFhl0J5LgcLJnSg%3D%3D"
-			(at 146.05 648.26 0)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Analog Devices"
-			(at 146.05 748.26 0)
+		(property "MANUFACTURER" "Phoenix Contact"
+			(at 25.4 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
+				(justify bottom)
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MAX31865ATP+T"
-			(at 146.05 848.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
+		(pin "02"
+			(uuid "965530fd-a2e1-434e-9a5e-1568158c02c5")
 		)
-		(pin "21"
-			(uuid "072c1016-799c-49eb-aa41-c417f3f3618d")
+		(pin "01"
+			(uuid "421c7fa2-1283-49bf-9070-6965435b3390")
 		)
-		(pin "5"
-			(uuid "4d550d3e-6546-4ea8-9a26-1a22f960adda")
+		(pin "04"
+			(uuid "dce11351-3e1b-4029-aa92-790f655e7c70")
 		)
-		(pin "15"
-			(uuid "31e324e4-c9b7-4223-9c5c-056bddc90b99")
-		)
-		(pin "4"
-			(uuid "f505db9a-724c-4e24-aa9c-6e4af9ec417c")
-		)
-		(pin "16"
-			(uuid "1f5258fc-5f84-4ebe-8c6f-74a5d291d85d")
-		)
-		(pin "13"
-			(uuid "4c55c542-f8e5-491f-95e8-f0b615882b32")
-		)
-		(pin "3"
-			(uuid "a40f385b-cf76-45fb-8c68-3b56aa759eb3")
-		)
-		(pin "10"
-			(uuid "77737d1f-0d7e-44e2-8edf-21749c306226")
-		)
-		(pin "14"
-			(uuid "0ec865a7-f728-40f7-9406-dd82bcfc6fe5")
-		)
-		(pin "19"
-			(uuid "5894d77a-4ba0-4194-b181-51b4795fe590")
-		)
-		(pin "17"
-			(uuid "fd18c578-cdb3-4581-aa33-22e58d22f987")
-		)
-		(pin "2"
-			(uuid "83321060-870d-4613-96e2-61193e9fcd97")
-		)
-		(pin "11"
-			(uuid "aafcde68-08f9-47c1-b219-edbe5195df72")
-		)
-		(pin "9"
-			(uuid "157086c2-9b3a-470e-b249-d3b29f69c32b")
-		)
-		(pin "1"
-			(uuid "916316f3-72ff-43e0-8191-ac5c8a6ec507")
-		)
-		(pin "7"
-			(uuid "deaf6fe7-1ec8-427e-9c83-1d410945b3af")
-		)
-		(pin "6"
-			(uuid "03cc78bf-9150-4f9b-832d-19e7ea622f44")
-		)
-		(pin "8"
-			(uuid "3b0df760-1331-44bb-ad2a-ab010f755bd4")
-		)
-		(pin "20"
-			(uuid "2fbff80c-7b34-483a-ae2d-71620aa1add0")
-		)
-		(pin "18"
-			(uuid "1729f888-20a3-41c1-9f73-ccfd2d4c0398")
-		)
-		(pin "12"
-			(uuid "78f86021-b4df-4241-bcf8-8f6451787d76")
+		(pin "03"
+			(uuid "26b90a5e-be3e-4547-9eee-12e14aa35012")
 		)
 		(instances
-			(project "first_project"
+			(project ""
 				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/1a5aca48-4a5c-47d9-a910-5b90d8564b5f"
-					(reference "IC4")
+					(reference "J18")
 					(unit 1)
 				)
 				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/2193e15f-f831-4392-b250-ff13e973393d"
-					(reference "IC7")
+					(reference "J17")
 					(unit 1)
 				)
 				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/88a822de-f11e-4d6d-ade7-7e59b150d23c"
-					(reference "IC8")
+					(reference "J19")
 					(unit 1)
 				)
 				(path "/2e03126f-90c3-49c2-bb02-7889a4a780ce/8d5672eb-64c4-497f-bf75-6647b35dddf6"
-					(reference "IC9")
+					(reference "J20")
 					(unit 1)
 				)
 			)

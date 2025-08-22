@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B12B-XH-A_LF__SN_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-07-23-11:49:53)
+    (mountForm default
+        (footprintRef "SHDR12W64P0X250_1X12_3240X575X700P")
+        (spec "System")
+    )
+)

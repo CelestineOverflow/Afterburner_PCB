@@ -6,7 +6,7 @@
 	(descr "RUK (S-PWQFN-N20)")
 	(tags "Integrated Circuit")
 	(property "Reference" "IC**"
-		(at 0 0 0)
+		(at 0 3.1 0)
 		(layer "F.SilkS")
 		(uuid "a6429895-3501-484b-a1ff-6a481092fced")
 		(effects
@@ -302,4 +302,15 @@
 		(uuid "b6962965-5952-420a-a19d-cbe6e5981284")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d/TPD4S480RUKR.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

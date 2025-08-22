@@ -665,7 +665,7 @@
 		(uuid "50dc37a0-3917-46ed-bc4c-eb06509ea6e2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/ESP32-S3-MINI-1-N8/ESP32-S3-MINI-1-N8.stp"
+	(model "${KIPRJMOD}/lib/3d/ESP32-S3-MINI-1-N8.stp"
 		(offset
 			(xyz 0 0.02999999888 0)
 		)

@@ -1,0 +1,129 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PJ-050AH"
+   (description "2.0 x 6.0 mm, 5.0 A, Horizontal, Through Hole, Pick-n-Place Top, Dc Power Jack Connector")
+   (family "CON")
+   (package "PJ050AH")
+   (attribute "Datasheet Link" "https://www.sameskydevices.com/product/resource/pj-050ah.pdf")
+   (attribute "Geometry.Height" "11mm")
+   (attribute "Mouser Part Number" "490-PJ-050AH")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CUI-Devices/PJ-050AH?qs=WyjlAZoYn50PwROH2sG8CQ%3D%3D")
+   (attribute "Manufacturer_Name" "Same Sky")
+   (attribute "Manufacturer_Part_Number" "PJ-050AH")
+   (gate
+    (symbol "PJ-050AH")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "PJ-050AH"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PJ050AH"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 0 4.5)
+      (pt 14.4 4.5)
+      (pt 14.4 -4.5)
+      (pt 0 -4.5)
+      (pt 0 4.5))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 5.5)
+      (pt 17.6 5.5)
+      (pt 17.6 -8.172)
+      (pt -1 -8.172)
+      (pt -1 5.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 14.4 3)
+      (pt 14.4 4.5)
+      (pt 0 4.5)
+      (pt 0 -4.5)
+      (pt 8 -4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed false)
+      (pt 14.4 -3)
+      (pt 14.4 -4.5)
+      (pt 14 -4.5))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 16.5 0.1)
+      (arc (pt 16.500 0.100) (pt 16.400 -0.100) (pt 16.600 0.100) (start -180.0) (sweep 90.0))
+      (pt 16.5 -0.1)
+      (arc (pt 16.500 -0.100) (pt 16.400 -0.100) (pt 16.600 0.100) (start -180.0) (sweep -90.0))
+      (pt 16.5 0.1))))
+   (leg 1 (pt 13.700 0.000) (padstack 0))
+   (leg 2 (pt 7.700 0.000) (padstack 0))
+   (leg 3 (pt 10.700 -4.800) (padstack 0))
+   (leg 4 (pt 3.500 0.000) (padstack 4))
+   (padstack 0
+    (hole 3.1623)
+    (plated true)
+    (pad (layer TCOP) (round 4.743))
+    (pad (layer INNER) (round 4.743))
+    (pad (layer BCOP) (round 4.743))
+   )
+   (padstack 4
+    (hole 1.8)
+    (plated false)
+    (pad (layer TCOP) (round 0.900))
+    (pad (layer INNER) (round 0.900))
+    (pad (layer BCOP) (round 0.900))
+   )
+   (model "PJ-050AH.stp"
+    (euler 90 0 -90)
+    (offset 11.279999732971191 -0.18000000715255737 0.009999999776482582)
+   )
+  )
+ )
+)

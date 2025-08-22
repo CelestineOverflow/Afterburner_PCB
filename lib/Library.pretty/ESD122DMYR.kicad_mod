@@ -158,7 +158,7 @@
 		(uuid "4c2c4f3c-879c-4f28-adaa-2d128b565cb8")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/lib/ESD122DMYR/ESD122DMYR.stp"
+	(model "${KIPRJMOD}/lib/3d/ESD122DMYR.stp"
 		(opacity 0.8000)
 		(offset
 			(xyz 0 0 0)

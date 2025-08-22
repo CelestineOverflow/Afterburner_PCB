@@ -330,4 +330,15 @@
 		(uuid "61401ba7-3f39-4049-a493-b64c78ed4d62")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3d/MAX31865ATP+T.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
